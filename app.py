@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello! Welcome to python app running in openshift'
+    return 'Hello! Welcome to python app running in openshift, version 2'
 @app.route('/arun')
 def message():
     return 'Welcome Arun....'
